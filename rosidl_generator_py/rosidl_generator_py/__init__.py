@@ -15,9 +15,7 @@
 import logging
 import traceback
 
-from .import_type_support_impl import import_type_support
-
-__all__ = ['import_type_support']
+__all__ = []
 
 try:
     from .generate_py_impl import generate_py

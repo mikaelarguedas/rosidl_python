@@ -94,7 +94,7 @@ class Metaclass_@(message.structure.namespaced_type.name)(type):
     @@classmethod
     def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support
+            from rosidl_runtime_py import import_type_support
             module = import_type_support('@(package_name)')
         except ImportError:
             import logging
